@@ -220,7 +220,7 @@ const Userform = ({ isUpdated, setIsEdit, setIsUpdated, data, isEdit }) => {
         }}
         onClick={() => (isEdit ? updateUser() : addUser())}
       >
-        {isEdit ? "Update" : "Add"}
+        {isEdit ? "Update" : "Add New Lecturer"}
       </Button></Link>
     </Grid>
   );

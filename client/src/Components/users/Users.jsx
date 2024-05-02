@@ -44,7 +44,7 @@ const Users = () => {
         setIsEdit={setIsEdit}
       />
 
-      <h3>User Table</h3>
+      <h3>Lecturers</h3>
       <UsersTable
         isUpdated={isUpdated}
         setIsUpdated={setIsUpdated}
