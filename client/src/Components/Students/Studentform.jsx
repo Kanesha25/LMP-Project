@@ -72,7 +72,7 @@ const Studentform = ({ isUpdated, setIsEdit, setIsUpdated, data, isEdit }) => {
     >
       <Grid item xs={12}>
         <Typography component={"h1"} sx={{ color: "#0000000" }}>
-          <h3>Student Register form</h3>
+          <h3>Student Registration</h3>
           <Link to="/studentryreg"><Button
             sx={{
               width: "100px",

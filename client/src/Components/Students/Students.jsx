@@ -42,7 +42,7 @@ const Students = () => {
         setIsEdit={setIsEdit}
       />
 
-      <h3>Student Table</h3>
+      <h3>Students</h3>
       <StudentsTable
         isUpdated={isUpdated}
         setIsUpdated={setIsUpdated}

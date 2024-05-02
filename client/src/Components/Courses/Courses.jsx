@@ -77,7 +77,7 @@ const Courses = () => {
         setIsEdit={setIsEdit}
       /> */}
 
-      <h3>Course Table</h3>
+      <h3>Courses</h3>
       <Button  onClick={handleOpen}>Add courses</Button>
       <div className="card">
       <CourseTable 
