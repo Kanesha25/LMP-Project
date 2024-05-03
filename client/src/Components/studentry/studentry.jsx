@@ -58,9 +58,9 @@ const StudEntry= () => {
         />
 
          <Link to="/timetable"><button type="submit">Login</button></Link>
-        <p>
+        {/* <p>
           Don't have account? <Link to="/entryreg">Sign Up</Link>
-        </p>
+        </p> */}
       </form>
     </div>
   );
