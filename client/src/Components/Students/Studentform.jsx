@@ -201,7 +201,27 @@ const Studentform = ({ isUpdated, setIsEdit, setIsUpdated, data, isEdit }) => {
           />
         </Grid>
       )}
+      {/* <Link to="/studentryreg" > */}
+        <Button
+        sx={{
+          margin: "auto",
+          width: "100px",
+          marginBottom: "20px",
+          backgroundColor: "#00c6e6",
+          color: "#000000",
+          marginLeft: "15px",
+          marginTop: "20px",
 
+          "&:hover": {
+            opacity: "0.7",
+            backgroundColor: "#00c6e6",
+          },
+        }}
+        onClick={() => (isEdit ? updateStudent() : addStudent())}
+      >
+        {isEdit ? "Update" : "Update"}
+      </Button>
+      {/* // </Link> */}
     
     </Grid>
   );
