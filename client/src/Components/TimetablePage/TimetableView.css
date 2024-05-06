@@ -45,3 +45,28 @@
   h1{
     text-align: center;
   }
+
+  .buttn23{
+   
+    position:fixed;
+  
+    border: none;
+  
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  
+}

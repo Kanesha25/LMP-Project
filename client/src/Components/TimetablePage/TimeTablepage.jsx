@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 import './TimetableView.css';
+import { Link } from "react-router-dom";
 
 const TimetableView = () => {
   const [timetableData, setTimetableData] = useState([]);
@@ -22,6 +23,9 @@ const TimetableView = () => {
     <div className="time1">
       <div className="timetable-container">
       <h1>Timetable View</h1>
+      <br></br>
+      <br></br>
+      <br></br>
       <table className="timetable">
         <thead>
           <tr>
@@ -44,8 +48,14 @@ const TimetableView = () => {
           ))}
         </tbody>
       </table>
+      <Link to="/request" >
+        <button className="buttn23">Request</button>
+        </Link>
+    
+      
       </div>
     </div>
+    
   );
 };
 
